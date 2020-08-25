@@ -1,0 +1,47 @@
+.title h2{
+  font-size: 64px;
+  font-weight: 600;
+  margin: 50px auto;
+}
+
+.point h4{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.point p{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.point a{
+  font-size: 20px;
+  font-weight: 400;
+  color: #2b2b2b;
+}
+
+.project-desc{
+  margin: 50px auto;
+}
+
+.project-desc .card{
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+.project-desc h3{
+  font-size: 40px;
+}
+
+.project-desc p{
+  font-size: 20px;
+}
+
+.project-desc a{
+  color: #ffffff;
+}
+
+.gallery .figure-caption{
+  font-size: 18px;
+}

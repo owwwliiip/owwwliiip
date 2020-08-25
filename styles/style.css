@@ -1,0 +1,196 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  color: #2b2b2b;
+}
+
+/* Navbar */
+nav {
+  background-color: #e3ebf2;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.nav-about,
+.nav-project {
+  margin-right: 25px;
+}
+
+/* Jumbotron/jumbotron */
+.jumbotron {
+  background-color: #e3ebf2;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  line-height: 68px;
+}
+
+.jumbotron span {
+  color: #467255;
+}
+
+.jumbotron .btn-cta {
+  background-color: #467255;
+  color: white;
+  font-size: 24px;
+  width: 200px;
+  height: 50px;
+  margin-right: 25px;
+}
+
+.jumbotron .btn-cta:hover {
+  background-color: #212121;
+}
+
+.jumbotron .btn-cv {
+  color: #212121;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.jumbotron .btn-cv:hover,
+.jumbotron .btn-cv img:hover {
+  color: #467255;
+}
+
+.jumbotron .btn-cv img {
+  width: 24px;
+  margin-right: 4px;
+}
+
+.jumbotron img {
+  width: 380px;
+  padding: 0;
+  margin: 0;
+}
+
+/* About */
+.about{
+  margin-top: 50px;
+}
+
+.about .card{
+  background-color: #2b2b2b;
+  color: #ffffff;
+  border: none;
+}
+
+.about .card h2{
+  font-size: 40px;
+}
+
+.about .card p{
+  font-size: 20px;
+}
+
+/* Project */
+.title-project h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 50px auto;
+}
+
+.project figure {
+  margin-bottom: 50px;
+}
+
+.project .figure-caption {
+  font-size: 25px;
+  color: #212121;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.project .figure-caption:hover {
+  color: #467255;
+}
+
+/* Design CTA */
+.design-cta .card{
+  background-color: #e3ebf2;
+  color: #2b2b2b;
+  border: none;
+}
+
+.design-cta .card-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-cta p{
+  font-size: 24px;
+  padding-top: 7px;
+  margin-bottom: 0;
+}
+
+.design-cta .btn-cta {
+  background-color: #467255;
+  color: white;
+  font-size: 24px;
+  width: 200px;
+  height: 50px;
+}
+
+.design-cta .btn-cta:hover{
+  background-color: #2b2b2b;
+}
+
+/* Footer */
+footer{
+  background-color: #467255;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+.title-footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 50px auto;
+}
+
+.fa-envelope-o, .fa-whatsapp, .fa-instagram, .fa-dribbble{
+  font-size: 50px;
+  margin-right: 40px;
+  color: #ffffff;
+}
+
+.fa-dribbble{
+  margin-right: 0;
+}
+
+.fa-envelope-o:hover, .fa-whatsapp:hover, .fa-instagram:hover, .fa-dribbble:hover{
+  color: #2b2b2b;
+}
+
+footer p{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 100px;
+}
+
+.fa-copyright, .fa-heart{
+  font-size: 16px;
+}
