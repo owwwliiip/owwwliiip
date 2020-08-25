@@ -1,0 +1,66 @@
+@media screen and (max-width: 576px) {
+  .reverse-mobile{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .jumbotron h1 {
+    font-size: 38px;
+    line-height: 50px;
+    margin-top: 25px;
+  }
+
+  .jumbotron .btn-cta {
+    margin-right: 0;
+  }
+
+  .jumbotron .btn-cv{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .about .card h2, .title-project h2, .title-footer h2{
+    font-size: 36px;
+  }
+
+  .design-cta .card-body{
+    display: block;
+  }
+
+  .design-cta p{
+    padding-top: 0;
+    margin-bottom: 25px;
+  }
+
+  .fa-envelope-o, .fa-whatsapp, .fa-instagram, .fa-dribbble{
+    font-size: 40px;
+    margin-right: 25px;
+  }
+
+  .fa-dribbble{
+    margin-right: 0;
+  }
+
+  footer p{
+    font-size: 16px;
+  }
+
+  /* Project Description Page */
+  .title h2{
+    font-size: 50px;
+  }
+
+  .point{
+    text-align: left !important;
+  }
+
+  .point p{
+    margin-bottom: -5px;
+  }
+
+  .project-desc h3{
+    font-size: 36px;
+  }
+
+}
