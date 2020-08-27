@@ -158,6 +158,15 @@ nav {
   background-color: #2b2b2b;
 }
 
+/* Design Project Page*/
+.design-project{
+  margin-top: 50px;
+}
+
+.design-project .figure-caption{
+  font-size: 18px;
+}
+
 /* Footer */
 footer{
   background-color: #467255;
